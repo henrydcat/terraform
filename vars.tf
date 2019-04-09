@@ -11,7 +11,7 @@ variable "vpcId" { description = "default vpc_id"
 }
 
 # account
-variable "key" { type = "string", default = "AWSLabkey" }
+variable "key" { type = "string", default = "myKey" }
 
 # host
 variable "hostName" { default = "busyme" }
