@@ -24,9 +24,9 @@ variable "server_port" { description = "port for http", default = 8080 }
 # networking
 variable "comcastIp" {
   description = "ips of proxy addresses"
-  default = "161.225.0.0/16"
+  default = "xxxxx"
 }
 variable "proxyIps" {
   description = "ips of proxy servers"
-  default = "73.252.165.55/32"
+  default = "xxxx"
 }
